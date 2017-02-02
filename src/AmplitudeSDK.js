@@ -40,12 +40,13 @@ class Amplitude {
   // --------------------------------------------------
   // Track
   // --------------------------------------------------
-  logEvent(name) {
-    return AmplitudeSDKAndroid.logEvent(name);
-  }
 
-  logEventWithProps(name, properties) {
-    return AmplitudeSDKAndroid.logEventWithProps(name, properties);
+  logEvent(name, properties) {
+    if (properties) {
+      return AmplitudeSDKAndroid.logEventWithProps(name, properties);
+    } else {
+      return AmplitudeSDKAndroid.logEvent(name);
+    }
   }
 
   // --------------------------------------------------
