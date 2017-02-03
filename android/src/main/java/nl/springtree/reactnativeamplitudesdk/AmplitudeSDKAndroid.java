@@ -99,6 +99,9 @@ public class AmplitudeSDKAndroid extends ReactContextBaseJavaModule {
         case Boolean:
             jsonObj.put(key, map.getBoolean(key));
             break;
+        case Array:
+            jsonObj.put(key, map.getArray(key));
+            break;
         case Null:
             jsonObj.put(key, null);
             break;
