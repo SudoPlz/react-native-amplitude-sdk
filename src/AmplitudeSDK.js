@@ -1,5 +1,5 @@
 /**
- * Stub of AmplitudeSDK for Android.
+ * Stub of AmplitudeSDK for React Native
  *
  * @providesModule AmplitudeSDK
  * @flow
