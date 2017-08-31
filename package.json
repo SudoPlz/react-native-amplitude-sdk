@@ -1,6 +1,6 @@
 {
   "name": "react-native-amplitude-sdk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Native Bindings for the Amplitude Library",
   "keywords": [
     "react-native",
